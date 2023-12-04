@@ -9,9 +9,13 @@ public class WeatherForecastController : ControllerBase
 {
     private static List<Item> _items = new List<Item>
     {
-        new Item { Id = 1, Name = "Item 1" },
-        new Item { Id = 2, Name = "Item 2" },
-        new Item { Id = 3, Name = "Item 3" }
+        new Item { Id = 1, Name = "engine parts" },
+        new Item { Id = 2, Name = "car boady wash" },
+        new Item { Id = 3, Name = "wheels and Tyres" },
+        new Item { Id = 4, Name = "Body kits" },
+        new Item { Id = 4, Name = "Ac parts" },
+        new Item { Id = 4, Name = "Oil" },
+
     };
 
     [HttpGet]
